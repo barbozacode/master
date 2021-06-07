@@ -1,0 +1,17 @@
+  /*SLOGAN*/
+
+  .slogan{
+    width: 100%;
+    height: 60px;
+background-color: $primer__color;
+}
+
+.slogan__text{
+    height: 60px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 18px;
+font-weight: 300;
+}

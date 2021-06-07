@@ -1,0 +1,221 @@
+/*SPBRE MI*/
+
+#about{
+    width: 100%;
+    padding: 60px 60px;
+  }
+
+  .picture{
+    width: 80%;
+  }
+
+  .text__about{
+    font-size: $text;
+    color: $gris__oscuro;
+  }
+
+  span{
+    font-weight: 700;
+  }
+
+  li{
+    font-size: $text;
+  }
+
+  @media (max-width: 768px) {
+    .picture{
+      padding-bottom: 40px;
+    }
+}
+
+
+  /*SERVICIOS*/
+  #services{
+    width: 100%;
+    background-color: $gris;
+    padding: 60px 20px;
+  }
+
+
+  .h3__title--services{
+    text-align: left;
+    padding: 0;
+    color: $blanco;
+    margin-bottom: 50px;
+    vertical-align: baseline;
+    background: transparent;
+    line-height: 1em;
+    font-size: $h3;
+    font-weight: 300;
+  }
+
+  
+  .services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+  }
+
+  .services .icon-box p{
+    line-height: 1.7em;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    color: $blanco;
+    word-wrap: break-word;
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    padding-bottom: 0;
+
+  }
+
+  .services .icon-box h4{
+    color: $primer__color;
+    text-align: center;
+  }
+  
+  .services .icon-box:hover {
+    transform: translateY(-4px);
+  }
+  
+  
+  .services .icon {
+    margin-bottom: 15px;
+  }
+  
+  .services .icon i {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 1;
+    color: $primer__color;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: $gris__oscuro
+  }
+  
+  .services .description {
+    font-size: $text;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .h3__title{
+      margin-bottom: 40px;
+    line-height: 1.6em;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  #services{
+    padding: 50px 20px;
+  }
+  }
+  
+  @media (max-height: 500px) {
+    .h3__title{ margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #services{
+    padding: 40px 20px;
+  }
+}
+  
+
+
+  /*TRABAJOS*/
+
+  #works{
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+
+  .h3__title{
+    text-align: left;
+    padding: 0;
+    margin-bottom: 50px;
+    vertical-align: baseline;
+    background: transparent;
+    line-height: 1em;
+    font-size: $h3;
+    font-weight: 300;
+  }
+
+  
+  .works .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: $blanco;
+    box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+  
+  .works .icon-box:hover {
+    transform: translateY(-4px);
+  }
+  
+  
+  .works .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .works .title a {
+    color: $gris__oscuro;
+  }
+  
+  .works .description {
+    font-size: $text;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    .h3__title{
+      margin-bottom: 40px;
+    line-height: 1.6em;
+    font-size: 22px;
+    font-weight: 300;
+  }
+
+  #works{
+    padding: 50px 20px;
+  }
+  }
+  
+  @media (max-height: 500px) {
+    .h3__title{ margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #works{
+    padding: 40px 20px;
+  }
+}
+  
