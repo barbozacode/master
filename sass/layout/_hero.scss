@@ -6,6 +6,15 @@
     background-size: cover;
     position: relative;
   }
+
+  .img-hero{
+    width: 1920px;
+    height: 1080;
+  }
+  .img-about{
+    width: 300px;
+    height: 300px;
+  }
   
   #hero:before {
     content: "";
